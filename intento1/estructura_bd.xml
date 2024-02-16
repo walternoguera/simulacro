@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<estructura><tabla nombre="usuarios"><campo nombre="identificador" /><campo nombre="nombre" /><campo nombre="contrasena" /><campo nombre="nombrePropio" /><campo nombre="apellido" /><campo nombre="email" /><campo nombre="telefono" /></tabla></estructura>
