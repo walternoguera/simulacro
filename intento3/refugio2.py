@@ -28,7 +28,8 @@ def listar():
 
 def buscar():
     buscar = input("Que nombre quieres buscar:")
-    resultado = db("SELECT * FROM animales WHERE nombre = '"+buscar+"';")
+    resultado = db("SELECT * FROM animales WHERE nombre = ?;",
+                   (buscar,))
     if not resultado:
         print("No existen coincidencia")
     else:
